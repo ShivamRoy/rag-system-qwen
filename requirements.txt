@@ -1,0 +1,31 @@
+# this is the requirement.txt (if you find other libraries or modules useful, then you can install them. I have used these)
+# Core libraries
+langchain>=0.1.14
+langchain-text-splitters  # Required for text splitting in newer LangChain versions
+ollama  # lightweight wrapper, optional but useful
+requests
+tqdm
+
+# Embeddings & ML
+sentence-transformers
+faiss-cpu
+torch
+transformers
+
+# Data wrangling
+numpy
+pandas
+
+# PDF/Text parsing (optional but useful for ingesting files)
+PyPDF2
+PyMuPDF  # fitz module for PDF processing
+python-docx
+
+# Environment support
+python-dotenv
+
+# Jupyter / Dev tools (optional)
+ipykernel
+
+# Web interface
+streamlit>=1.28.0
