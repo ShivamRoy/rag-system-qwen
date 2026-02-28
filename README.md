@@ -1,3 +1,48 @@
+# Privacy-First Document Intelligence System
+
+This project is a Retrieval-Augmented Generation (RAG) based AI system designed to answer questions from PDFs using local LLMs. The focus is on privacy, scalability, and enterprise-grade workflows aligned with European compliance standards (GDPR).
+
+## 🚀 Features
+- PDF ingestion and text extraction
+- Chunking and embedding
+- Vector search using FAISS
+- Local inference using Ollama
+- Privacy-first architecture
+- Supports multiple document types
+- Designed for enterprise use cases such as finance, legal, and compliance
+
+## 🧠 Architecture
+1. PDF ingestion
+2. Text chunking
+3. Embedding generation
+4. Vector database indexing
+5. Semantic retrieval
+6. Context-aware LLM response
+
+## 💡 Use Cases
+- Contract and invoice analysis
+- Knowledge management
+- Customer support automation
+- Compliance and audit workflows
+
+## ⚙️ Tech Stack
+- Python
+- FastAPI
+- FAISS
+- Ollama
+- Local LLMs
+
+## 🔐 Why Local LLM?
+This system avoids sending sensitive data to external APIs, making it suitable for enterprise and European environments.
+
+## 📌 Future Improvements
+- Hybrid search
+- Reranking
+- Observability and monitoring
+- Async processing
+- Scalable deployments
+
+
 # RAG System with Qwen LLM
 
 A Retrieval-Augmented Generation (RAG) system that uses Qwen model via Ollama to answer questions from PDF documents.
